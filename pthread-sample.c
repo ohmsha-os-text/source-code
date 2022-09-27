@@ -4,8 +4,8 @@
  *
  * Pthreadによるマルチスレッドプログラムのサンプル (p.55)
  * コンパイル方法:
- * - Linux: cc pthread.c -lpthread -o pthread
- * - macOS: cc pthread.c -o pthread
+ * - Linux: cc pthread-sample.c -lpthread -o pthread-sample
+ * - macOS: cc pthread-sample.c -o pthread-sample
  */
 // マルチスレッドプログラムのサンプル
 #include <pthread.h>
